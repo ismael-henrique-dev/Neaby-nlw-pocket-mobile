@@ -7,7 +7,7 @@ import { colors } from '@/styles/colors'
 type StepProps = {
   title: string
   description: string
-  icon: React.ComponentType<IconProps>
+  icon: React.ElementType
 }
 
 export function Step({ title, description, icon: Icon }: StepProps) {
