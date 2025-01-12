@@ -29,7 +29,6 @@ export default function Market() {
       const { data } = await api.get(`/markets/${params.id}`)
       setData(data)
       setIsLoading(false)
-      console.log(data)
     } catch (error) {
       console.log(error)
       Alert.alert('Erro', 'Erro ao carregar os dados')
@@ -91,7 +90,7 @@ export default function Market() {
   }
 
   if (!data) {
-    return <Redirect href='/home' />
+    return <Redirect href="./home" />
   }
 
   return (
@@ -107,9 +106,9 @@ export default function Market() {
       </View>
 
       <Modal style={{ flex: 1 }} visible={isVisibleCameraModal}>
-        <CameraView
+      <CameraView
           style={{ flex: 1 }}
-          facing='back'
+          facing="back"
           onBarcodeScanned={({ data }) => {
             if (data && !qrLock.current) {
               qrLock.current = true
