@@ -37,6 +37,8 @@ export default function Home() {
     }
   }
 
+  // test
+
   async function fetchMarkets() {
     try {
       if (!category) return
