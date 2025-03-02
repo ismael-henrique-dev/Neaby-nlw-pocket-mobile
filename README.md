@@ -1,4 +1,4 @@
-# 📱 NLW Pocket Mobile
+# NLW Pocket Mobile
 
 ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
@@ -11,6 +11,10 @@ Nearby é um aplicativo desenvolvido com intuito de aprender a trabalhar com apl
 - **React Native** - Framework para desenvolvimento de aplicações móveis com React.
 - **Expo** - Ferramenta para simplificar o desenvolvimento e o build de apps React Native.
 - **TypeScript** - Superset tipado do JavaScript para um código mais seguro e escalável.
+
+## 📱 Screens
+
+<img src='./public/screens.png' />
 
 ## 📂 Estrutura do Projeto
 
